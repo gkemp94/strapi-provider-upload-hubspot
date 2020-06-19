@@ -1,0 +1,30 @@
+{
+  "name": "strapi-provider-upload-hubspot",
+  "version": "1.0.1",
+  "description": "HubSpot provider for strapi upload",
+  "main": "./lib",
+  "keywords": [
+    "hubspot",
+    "filemanager",
+    "strapi",
+    "upload"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "gkemp@hubspot.com",
+    "name": "George Kemp"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "form-data": "^3.0.0"
+  }
+}
